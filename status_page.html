@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Status - Government of VIT</title>
+    <link rel="stylesheet" href="status_page_style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo-container">
+            <img src="Logo/header-logo-2048x604.webp" alt="VIT Logo" class="vit-logo">
+        </div>
+        
+        <div class="header-titles">
+            <h1>Public Distribution System</h1>
+            <h2>Department of Food Supplies</h2>
+            <h3>Government of VIT</h3>
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="Home_page.html">Home</a></li>
+                <li><a href="Contact_page.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="page-title">
+            <h2>Track Application Status</h2>
+            <p>Enter your Reference Number or Ration Card Number to check real-time status.</p>
+        </div>
+
+        <div class="status-search-container">
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Enter Reference ID (e.g. REF-2026-9988)" required>
+                <button type="submit">Check Status</button>
+            </form>
+        </div>
+
+        <div class="status-result-card">
+            <div class="result-header">
+                <h3>Application Details</h3>
+                <span class="badge badge-pending">In Progress</span>
+            </div>
+            
+            <div class="applicant-info">
+                <div class="info-item">
+                    <span class="label">Applicant Name:</span>
+                    <span class="value">Mr. Rajesh Sharma</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Application ID:</span>
+                    <span class="value">REF-2026-9988</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Date Applied:</span>
+                    <span class="value">01 Feb 2026</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Type:</span>
+                    <span class="value">New Ration Card</span>
+                </div>
+            </div>
+
+            <div class="progress-track">
+                <div class="step completed">
+                    <div class="step-icon">1</div>
+                    <p>Application Submitted</p>
+                    <small>01 Feb 2026</small>
+                </div>
+                <div class="step completed">
+                    <div class="step-icon">2</div>
+                    <p>Document Verification</p>
+                    <small>03 Feb 2026</small>
+                </div>
+                <div class="step active">
+                    <div class="step-icon">3</div>
+                    <p>Officer Approval</p>
+                    <small>Pending</small>
+                </div>
+                <div class="step">
+                    <div class="step-icon">4</div>
+                    <p>Card Dispatch</p>
+                    <small>--</small>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="main-footer">
+        <p class="quote">"VIT Quality Never Ending Policy"</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/vituniversity/"><img src="Icons/logo-facebook.svg" alt="Facebook"></a>
+            <a href="https://x.com/VIT_univ?lang=en"><img src="Icons/logo-twitter.svg" alt="Twitter"></a>
+            <a href="https://www.linkedin.com/school/vellore-institute-of-technology/posts/?feedView=all"><img src="Icons/logo-linkedin.svg" alt="Instagram"></a>
+        </div>
+        <p class="copyright">&copy; 2026 Government of VIT. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

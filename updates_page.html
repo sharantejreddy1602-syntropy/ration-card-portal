@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Services - Government of VIT</title>
+    <link rel="stylesheet" href="updates_page_style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo-container">
+            <img src="Logo/header-logo-2048x604.webp" alt="VIT Logo" class="vit-logo">
+        </div>
+        
+        <div class="header-titles">
+            <h1>Public Distribution System</h1>
+            <h2>Department of Food Supplies</h2>
+            <h3>Government of VIT</h3>
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="Home_page.html">Home</a></li>
+                <li><a href="Contact_page.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="page-title">
+            <h2>Update Ration Card Details</h2>
+            <p>Please select the specific form below for the update you require.</p>
+        </div>
+
+        <div class="form-container">
+            <div class="form-header-box">
+                <h3>Form A: Change of Address</h3>
+            </div>
+            <form action="#" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Ration Card Number</label>
+                        <input type="text" placeholder="10-digit Card No." required>
+                    </div>
+                    <div class="form-group">
+                        <label>New Pincode</label>
+                        <input type="text" placeholder="e.g. 632014" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>New Residential Address</label>
+                    <textarea rows="3" placeholder="Enter full new address with Door No. and Street" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Upload Address Proof (Gas Bill/Electricity Bill)</label>
+                    <input type="file" required>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn-submit">Update Address</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-container">
+            <div class="form-header-box">
+                <h3>Form B: Add Family Member</h3>
+            </div>
+            <form action="#" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Ration Card Number</label>
+                        <input type="text" placeholder="10-digit Card No." required>
+                    </div>
+                    <div class="form-group">
+                        <label>Relationship with Head</label>
+                        <select required>
+                            <option value="">Select Relation</option>
+                            <option>Spouse</option>
+                            <option>Son</option>
+                            <option>Daughter</option>
+                            <option>Parent</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>New Member Name</label>
+                        <input type="text" placeholder="Full Name as per Aadhar" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Date of Birth</label>
+                        <input type="date" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Member Aadhar Number</label>
+                    <input type="text" placeholder="12-digit Aadhar No." required>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn-submit">Add Member</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-container">
+            <div class="form-header-box">
+                <h3>Form C: Remove Family Member</h3>
+            </div>
+            <form action="#" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Ration Card Number</label>
+                        <input type="text" placeholder="10-digit Card No." required>
+                    </div>
+                    <div class="form-group">
+                        <label>Reason for Removal</label>
+                        <select required>
+                            <option value="">Select Reason</option>
+                            <option>Demise (Death)</option>
+                            <option>Marriage (Shifted)</option>
+                            <option>Permanent Migration</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Name of Member to Remove</label>
+                    <input type="text" placeholder="Enter exact name of the member" required>
+                </div>
+                <div class="form-group">
+                    <label>Upload Proof (Death Cert / Marriage Cert)</label>
+                    <input type="file" required>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn-submit" style="background-color: #D32F2F;">Remove Member</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-container">
+            <div class="form-header-box">
+                <h3>Form D: Update Mobile Number</h3>
+            </div>
+            <form action="#" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Ration Card Number</label>
+                        <input type="text" placeholder="10-digit Card No." required>
+                    </div>
+                    <div class="form-group">
+                        <label>Old Mobile Number</label>
+                        <input type="tel" placeholder="Last 4 digits" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>New Mobile Number</label>
+                    <input type="tel" placeholder="Enter new 10-digit number" required>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn-submit">Update Mobile</button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+    <footer class="main-footer">
+        <p class="quote">"VIT Quality Never Ending Policy"</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/vituniversity/"><img src="Icons/logo-facebook.svg" alt="Facebook"></a>
+            <a href="https://x.com/VIT_univ?lang=en"><img src="Icons/logo-twitter.svg" alt="Twitter"></a>
+            <a href="https://www.linkedin.com/school/vellore-institute-of-technology/posts/?feedView=all"><img src="Icons/logo-linkedin.svg" alt="Instagram"></a>
+        </div>
+        <p class="copyright">&copy; 2026 Government of VIT. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
